@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: cloudsqlproxy
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/cloudsqlproxy@sha256:c1a72d2d240bb04fe1af13f4bf691b97eaf3a85e920ca5b4220a9c744ae2225d
+        name: my-go
+        resources: {}
+status: {}
