@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: createcerts
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/createcerts@sha256:bf587b40579adac72a4b1c509d8f6c4c29abfdfd97b3b252c9b7d05cfb003d8d
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/createcerts@sha256:41d537bebdc2bfc00e148d8281fd94359ff808c263988d148bf5f66e3b87b1f6
         name: my-go
         ports:
         - containerPort: 8081
