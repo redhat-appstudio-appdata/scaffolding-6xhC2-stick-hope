@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: createdb
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: createdb
+    app.kubernetes.io/part-of: scaffolding
+  name: createdbau1a
+spec:
+  path: /
+  port:
+    targetPort: 8080
+  to:
+    kind: Service
+    name: createdb
+    weight: null
+status: {}

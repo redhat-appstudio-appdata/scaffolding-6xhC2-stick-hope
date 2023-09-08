@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: createdb
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/createdb@sha256:d19a0d6e8b995818731234e752a638820bd1e0c63720199289586b8b89904ccd
+        name: my-go
+        resources: {}
+status: {}
