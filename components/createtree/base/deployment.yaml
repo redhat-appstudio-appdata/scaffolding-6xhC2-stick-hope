@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: createtree
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/createtree@sha256:20b8e3ce2beff45bd4319aa632ee09417e9af51a2e1ee50d32db43e54eac9ca8
         name: my-go
         ports:
         - containerPort: 8081
