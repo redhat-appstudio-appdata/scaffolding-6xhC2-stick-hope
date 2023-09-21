@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: runtimecheck
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/runtimecheck@sha256:b5e53b09bd6a2aaa5d294b9758143e420fc5cdc59189030e2158c18bd5db5a42
+        name: my-go
+        resources: {}
+status: {}
