@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: cloudsqlproxy
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/cloudsqlproxy@sha256:fa77970362f586a40e714f9a01799a571bcd4519e354a147fa8f87cd4f498a3c
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/cloudsqlproxy@sha256:726422cc37dc6bea05744bd853a4b3c4db9b64c602c8f39c933cb7e40f7923a0
         name: my-go
         ports:
         - containerPort: 8081
