@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: createdb
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/createdb@sha256:2ab18517ba1468394dbf32afbea73f0f938401008f220d02bfd5bbb36f0d312a
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/createdb@sha256:adc7d8a52f193cbcd5171c586508f2856a17040d9b525fffdabe2881606abc13
         name: my-go
         ports:
         - containerPort: 8081
