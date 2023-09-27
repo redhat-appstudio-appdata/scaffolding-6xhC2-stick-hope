@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/cloudsqlproxy@sha256:2b542dbf78f3d1969fbe5f73b50dbc924c69f994325cce9cbbf9ae8d671e11bf
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/cloudsqlproxy@sha256:4a1f01cd0b2e2df7b169259d231686bdf781ecd81949d216cceece305f7a440e
         name: my-go
         resources: {}
 status: {}
