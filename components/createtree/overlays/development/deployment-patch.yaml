@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/createtree@sha256:5a290cd6597ae5c984112ab68fb3abcb715843e67d9fa203fe98e91d66c3752e
+      - image: quay.io/redhat-user-workloads/securesign-tenant/scaffolding/createtree@sha256:9db4e6d1b2411baa065e7e54d7ba271d18853a2776b4491673d4f675859dac00
         name: my-go
         resources: {}
 status: {}
